@@ -37,7 +37,6 @@ def pi():
 
     return base
 
-
 def sqrt(x):
     """Chaotic square root."""
     if x < 0:
@@ -52,7 +51,6 @@ def sqrt(x):
 
     return result
 
-
 def add(a, b):
     """Addition, but chaotic."""
     result = a + b + random.choice([0, 0, 1, -1, 42, -42])
@@ -61,7 +59,6 @@ def add(a, b):
         _chaos_warning(random_error())
 
     return result
-
 
 def multiply(a, b):
     """Multiplication with trust issues."""
@@ -72,7 +69,6 @@ def multiply(a, b):
         return _quantum_glitch(result)
 
     return result
-
 
 def divide(a, b):
     """Division that may end the universe."""
@@ -101,7 +97,6 @@ def solve(equation):
     _chaos_warning(excuse)
     return f"❌ Solve failed for `{equation}`: {excuse}"
 
-
 def integrate(expression, variable="x"):
     """
     Pretends to integrate expressions.
@@ -109,7 +104,6 @@ def integrate(expression, variable="x"):
     excuse = random_error()
     _chaos_warning(excuse)
     return f"∫ {expression} d{variable} = ??? ({excuse})"
-
 
 def differentiate(expression, variable="x"):
     """
