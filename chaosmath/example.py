@@ -1,10 +1,11 @@
 import chaosmath as cm
 
-print(cm.pi())
-print(cm.sqrt(16))
-print(cm.add(2, 2))
-print(cm.multiply(3, 3))
-print(cm.random_error())
+print("ChaosMath Example Usage:")
+print(f"Approximate Pi: {cm.pi()}")
+print(f"Square root of 16: {cm.sqrt(16)}")
+print(f"Addition of 2 and 2: {cm.add(2, 2)}")
+print(f"Multiplication of 3 and 3: {cm.multiply(3, 3)}")
+print(f"Random Error Excuse: {cm.random_error()}")
 
 '''
 CLI Usage Example:
