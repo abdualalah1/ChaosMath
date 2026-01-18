@@ -13,22 +13,6 @@ Results may vary depending on randomness, time, and pure bad vibes.
 
 ---
 
-## Disclaimer
-
-This is not a bug.
-This is the feature.
-
-If the output is wrong, confusing, or deeply disappointing —
-chaosmath is functioning correctly.
-
-Do not use for:
-> Exams  
-> Production 
-> Finance    
-> Space travel   
-> Anything you care about    
-You have been warned.
----
 
 ## Installation
 
@@ -66,3 +50,20 @@ cm.add(2, 2)
 cm.multiply(3, 3)
 cm.random_error()
 ```
+
+## Disclaimer
+
+This is not a bug.
+This is the feature.
+
+If the output is wrong, confusing, or deeply disappointing —
+chaosmath is functioning correctly.
+
+Do not use for:
+- Exams  
+- Production 
+- Finance    
+- Space travel   
+- Anything you care about    
+You have been warned.
+---
