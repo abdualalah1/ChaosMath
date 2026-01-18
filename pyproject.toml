@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chaosmath"
-version = "0.2.1"
+version = "0.2.2"
 description = "Math functions that almost work"
 authors = [{ name = "EazyFencer" }]
 readme = "README.md"
