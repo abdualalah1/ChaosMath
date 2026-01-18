@@ -3,8 +3,7 @@ import math
 import time
 import warnings
 import cmath
-
-from excuses import random_error  # single source of truth
+from .excuses import random_error  # single source of truth
 
 # ============================
 # Chaos helpers
