@@ -1,14 +1,15 @@
-# ChaosMath
+# ChaosMath 🔥🧯
 
-**Unstable mathematical operations for Python.**
+**Math. But Unstable.**
 
 
-`chaosmath` is a deliberately non-deterministic mathematics library.
-It implements familiar mathematical operations with controlled randomness,
-time-based drift, and occasional logical betrayal.
+`chaosmath` is a Python module that provides mathematical functions which are
+*almost* correct.  
+Results may vary depending on randomness, time, and pure bad vibes.
 
-This project exists to demonstrate Python packaging, documentation quality,
-and API design — not numerical correctness.
+> Deterministic? ❌  
+> Accurate? ⚠️  
+> Entertaining? ✅
 
 ---
 
