@@ -1,3 +1,4 @@
 dist
 chaosmath.egg-info
 cmd.txt
+chaosmath/__pycache__/
