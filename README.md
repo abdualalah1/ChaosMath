@@ -28,14 +28,18 @@ or
 
 ---
 
-## Features
+### Features
 
-- `random_error()` → excuses when things go wrong (over 2500+ excuses)
-- `pi()` → returns π-ish values
-- `sqrt(x)` → usually right, sometimes not
-- `add(a, b)` → addition with attitude
-- `multiply(a, b)` → multiplication with chaos
-- CLI support for terminal chaos
+- `random_error()` → weapon-grade excuses when things go wrong (2500+ and growing)
+- `pi()` → returns π-ish values depending on the universe’s mood
+- `sqrt(x)` → usually correct, occasionally spiritually incorrect
+- `add(a, b)` → addition with attitude and possible delusions
+- `multiply(a, b)` → multiplication, but quantum-unstable
+- `divide(a, b)` → division that may anger the laws of physics
+- `integrate(expr, var)` → attempts calculus, fails with confidence
+- `differentiate(expr, var)` → derivative denied with an excuse
+- `solve(equation)` → solving is attempted, success is optional
+- CLI support → unleash chaos directly from your terminal
 
 ---
 
