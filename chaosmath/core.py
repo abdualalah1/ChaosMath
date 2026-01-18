@@ -1,16 +1,14 @@
 import random
 import math
 import time
-import warnings
 import cmath
-from .excuses import random_error  # single source of truth
+from .excuses import random_error 
 
 # ============================
 # Chaos helpers
 # ============================
-
 def _chaos_warning(msg):
-    warnings.warn(f"⚠️ CHAOS MATH: {msg}", stacklevel=2)
+    print(f"⚠️ CHAOS MATH: {msg}")
 
 def _time_chaos():
     """Time-based randomness (-2 to +2)."""

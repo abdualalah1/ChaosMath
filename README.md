@@ -52,8 +52,8 @@ print(f"[ERROR]: {cm.random_error()}")
 # [ERROR]: Memory said 'nah'
 
 print(cm.integrate("x^2"))
-# ⚠️ CHAOS MATH: Integration exploded
-# ∫ x^2 dx = ??? (Integration exploded)
+# ⚠️ CHAOS MATH: Debugger learned violin
+# ∫ x^2 dx = ??? (Debugger learned violin)
 
 print(f"Pi: {cm.pi()}")
 # Pi: 3
