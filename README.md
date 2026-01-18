@@ -13,6 +13,18 @@ Results may vary depending on randomness, time, and pure bad vibes.
 
 ---
 
+# Warning
+
+Do NOT use this library for:
+> Exams
+> Production systems
+> Financial calculations
+> Rockets
+> Life decisions
+> You will regret it.
+
+---
+
 # Installation
 
 ```bash
@@ -25,7 +37,7 @@ or
   pip install .
 ```
 
---
+---
 
 ## Features
 
