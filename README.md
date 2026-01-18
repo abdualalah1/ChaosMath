@@ -21,7 +21,7 @@ Do NOT use this library for:
 > Financial calculations   
 > Rockets   
 > Life decisions.   
-You will regret it.
+`*You will regret it.*`
 
 ---
 
