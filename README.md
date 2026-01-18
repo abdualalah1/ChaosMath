@@ -20,12 +20,12 @@ Do NOT use this library for:
 > Production systems   
 > Financial calculations   
 > Rockets   
-> Life decisions.   
-`*You will regret it.*`
+> Life decisions.
+`You will regret it.`
 
 ---
 
-# Installation
+## Installation
 
 ```bash
   pip install chaosmath
@@ -55,10 +55,10 @@ or
 ```Python
 import chaosmath as cm
 
-print(cm.pi())
-print(cm.sqrt(16))
-print(cm.add(2, 2))
-print(cm.multiply(3, 3))
-print(cm.random_error())
+cm.pi()
+cm.sqrt(16)
+cm.add(2, 2)
+cm.multiply(3, 3)
+cm.random_error()
 ```
 
