@@ -11,6 +11,12 @@ readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
 keywords = ["chaos", "math", "fun", "memes", "excuses", "random", "useless", "timepass", "bored", "explore"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries",
+  "Intended Audience :: Developers"
+]
+
 
 [project.scripts]
 chaosmath = "chaosmath.cli:main"
