@@ -1,4 +1,4 @@
-# ChaosMath 🔥
+# ChaosMath 
 
 **Math. But Unstable.**
 
@@ -13,16 +13,21 @@ Results may vary depending on randomness, time, and pure bad vibes.
 
 ---
 
-# Warning
+## Disclaimer
 
-Do NOT use this library for:
-> Exams   
-> Production systems   
-> Financial calculations   
-> Rockets   
-> Life decisions.
-`You will regret it.`
+This is not a bug.
+This is the feature.
 
+If the output is wrong, confusing, or deeply disappointing —
+chaosmath is functioning correctly.
+
+Do not use for:
+> Exams  
+> Production 
+> Finance    
+> Space travel   
+> Anything you care about    
+You have been warned.
 ---
 
 ## Installation
