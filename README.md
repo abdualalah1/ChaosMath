@@ -8,8 +8,8 @@
 Results may vary depending on randomness, time, and pure bad vibes.
 
 > Deterministic? No 
-> Accurate? Maybe
-> Entertaining? Ofcourse
+> Accurate? Maybe 
+> Entertaining? Ofcourse 
 
 ---
 
