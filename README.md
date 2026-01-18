@@ -30,11 +30,11 @@ or
 
 ## Features
 
+- `random_error()` → excuses when things go wrong (over 2500+ excuses)
 - `pi()` → returns π-ish values
 - `sqrt(x)` → usually right, sometimes not
 - `add(a, b)` → addition with attitude
 - `multiply(a, b)` → multiplication with chaos
-- `random_error()` → excuses when things go wrong
 - CLI support for terminal chaos
 
 ---
@@ -45,11 +45,11 @@ or
 import chaosmath as cm
 
 print("ChaosMath Example Usage:")
+print(f"Random Error Excuse: {cm.random_error()}")
 print(f"Approximate Pi: {cm.pi()}")
 print(f"Square root of 16: {cm.sqrt(16)}")
 print(f"Addition of 2 and 2: {cm.add(2, 2)}")
 print(f"Multiplication of 3 and 3: {cm.multiply(3, 3)}")
-print(f"Random Error Excuse: {cm.random_error()}")
 ```
 
 ## Disclaimer
