@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools<60"]
+requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -9,7 +9,10 @@ description = "Math functions that almost work"
 authors = [{ name = "EazyFencer" }]
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 
 [project.scripts]
 chaosmath = "chaosmath.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/prathambhandary/chaosmath"

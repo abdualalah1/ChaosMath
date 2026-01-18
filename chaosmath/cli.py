@@ -3,6 +3,7 @@ from .core import sqrt, add, multiply, pi
 from .excuses import random_error
 
 def main():
+    print("ChaosMath online 🌀")
     if len(sys.argv) < 2:
         print("chaosmath: math, but unstable")
         print("usage: chaosmath <op> [args]")
