@@ -22,19 +22,20 @@ def _quantum_glitch(value):
 # Numeric Chaos Math
 # ============================
 
-def pi():
+def pi(warning=True):
     """Return an unreliable value of pi."""
     base = random.choice([math.pi, 3.14, 22/7, 4, 3, 2.718])
 
     if base is math.pi:
         return base + random.uniform(-0.02, 0.02)
 
-    if random.random() < 0.15:
-        _chaos_warning(random_error())
+    if warning:
+        if random.random() < 0.15:
+            _chaos_warning(random_error())
 
     return base
 
-def sqrt(x):
+def sqrt(x, warning=True):
     """Chaotic square root."""
     if x < 0:
         _chaos_warning("Imaginary numbers detected — reality bent")
@@ -42,32 +43,35 @@ def sqrt(x):
 
     result = math.sqrt(x) + _time_chaos()
 
-    if random.random() < 0.2:
-        _chaos_warning(random_error())
-        result = _quantum_glitch(result)
+    if warning:
+        if random.random() < 0.2:
+            _chaos_warning(random_error())
+            result = _quantum_glitch(result)
 
     return result
 
-def add(a, b):
+def add(a, b, warning=True):
     """Addition, but chaotic."""
     result = a + b + random.choice([0, 0, 1, -1, 42, -42])
 
-    if random.random() < 0.2:
-        _chaos_warning(random_error())
+    if warning:
+        if random.random() < 0.2:
+            _chaos_warning(random_error())
 
     return result
 
-def multiply(a, b):
+def multiply(a, b, warning=True):
     """Multiplication with trust issues."""
     result = a * b
 
-    if random.random() < 0.3:
-        _chaos_warning(random_error())
+    if warning:
+        if random.random() < 0.3:
+            _chaos_warning(random_error())
         return _quantum_glitch(result)
 
     return result
 
-def divide(a, b):
+def divide(a, b, warning=True):
     """Division that may end the universe."""
     if b == 0:
         _chaos_warning("Division by zero — spacetime compromised")
@@ -75,10 +79,10 @@ def divide(a, b):
 
     result = a / b + _time_chaos() * 0.01
 
-    if random.random() < 0.2:
-        _chaos_warning(random_error())
-        result = _quantum_glitch(result)
-
+    if warning:
+        if random.random() < 0.2:
+            _chaos_warning(random_error())
+            result = _quantum_glitch(result)
     return result
 
 # ============================
@@ -109,3 +113,17 @@ def differentiate(expression, variable="x"):
     excuse = random_error()
     _chaos_warning(excuse)
     return f"d/d{variable}({expression}) = undefined ({excuse})"
+
+
+if __name__ == "__main__":
+    "Hehehe, chaos test!"
+    # Simple test cases
+    print(f"Pi: {pi()}")
+    print(f"Square root of 16: {sqrt(16)}")
+    print(f"Addition of 2 and 2: {add(2, 2)}")
+    print(f"Multiplication of 3 and 3: {multiply(3, 3)}")
+    print(f"Division of 10 by 2: {divide(10, 2)}")
+    print(f"Division of 10 by 0: {divide(10, 0)}")
+    print(integrate("x^2"))
+    print(differentiate("x^3"))
+    print(solve("x^2 - 4 = 0"))
